@@ -1,0 +1,46 @@
+{
+  "name": "flowmind",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@tailwindcss/vite": "^4.1.10",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "framer-motion": "^12.19.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.3.0",
+    "lucide-react": "^0.518.0",
+    "mermaid": "^11.7.0",
+    "p5": "^2.0.3",
+    "path": "^0.12.7",
+    "puppeteer": "^24.10.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-flow-renderer": "^10.3.17",
+    "react-router": "^7.6.2",
+    "react-router-dom": "^7.6.2",
+    "react-toastify": "^11.0.5",
+    "tailwindcss": "^4.1.10",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "vite": "^6.3.5"
+  }
+}
